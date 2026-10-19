@@ -1,0 +1,81 @@
+﻿<!doctype html>
+<html lang="vi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="theme-color" content="#f8f2e8">
+    <title>Gửi mẹ và em — Những điều thương yêu</title>
+    <meta name="description" content="Một chút hoa, một lá thư. Và cả tấm lòng dành cho mẹ và em gái.">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="landscape" role="img" aria-label="Tranh gia đình năm người nắm tay nhau đứng trong vườn tulip">
+        <div class="scene-art"></div>
+        <div class="breeze" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+    <div class="intro">
+        <h2 class="intro-title">Chúc mừng Ngày Phụ nữ Việt Nam <span>20/10</span></h2>
+        <p class="intro-note">Nơi có nhà mình, nơi có yêu thương.</p>
+
+        <button id="unwrap">Mở những lời thương <span aria-hidden="true">↗</span></button>
+    </div>
+    <main inert>
+
+        <section class="gift" aria-labelledby="heading">
+            <div class="heading">
+                <p class="eyebrow">GỬI MẸ VÀ EM GÁI YÊU THƯƠNG</p>
+                <h1 id="heading">Có những yêu thương,<br>chỉ dành cho <em>nhà mình.</em></h1>
+                <p>Một chút hoa, một lá thư. Và cả tấm lòng.</p>
+            </div>
+            <div class="gift-stage">
+                <figure class="bouquet">
+                    <div class="halo"></div><img src="assets/bouquet.png"
+                        alt="Bó hoa hồng phấn và hoa trắng gói giấy kem, thắt nơ lụa">
+                    <figcaption>Gói ghém những điều dịu dàng nhất</figcaption>
+                </figure>
+                <div class="letter-area">
+                    <div class="card">
+                        <div class="envelope-back" aria-hidden="true"></div>
+                        <div class="envelope-flap" aria-hidden="true"></div>
+                        <article class="card-inner" id="letter" inert aria-label="Lời thương gửi mẹ và em gái"
+                            tabindex="-1">
+                            <div class="letter-copy">
+                                <span class="letter-date">DÀNH RIÊNG CHO HAI NGƯỜI CON THƯƠNG</span>
+                                <section>
+                                    <p>Happy hai công chúa nhân ngày phụ nữ.</p>
+                                    <h2>Gửi mẹ,</h2>
+                                    <p>Nhân ngày 20/10, con chúc mẹ luôn có sức khoẻ, mọi nỗi buồn xua tan đi để lại
+                                        những nụ cười trên môi thui. Mong mọi điều tốt đẹp sẽ đến với mẹ mỗi ngày! Happy
+                                        Vietnamese woman’s dayyyy to my princess.</p>
+                                </section>
+                                <section>
+                                    <h2>Gửi em gái,</h2>
+                                    <p>Chúc em gái anh vững vàng hơn trên con đường mình chọn, biết là vẫn còn rất nhiều
+                                        khó khăn phía trước để đạt được những thành quả đầu tiên nhưng đừng lo có anh ở
+                                        đây rui, việc gì khó có anh lo.</p>
+                                </section>
+                                <br>
+
+                                <div class="signature">Thương mẹ và em thật nhiều.</div>
+                            </div>
+                        </article>
+                        <div class="envelope-front">
+                            <p>Có những điều<br>con và anh muốn nói…</p><button id="open-envelope"
+                                aria-controls="letter" aria-expanded="false"><span aria-hidden="true">♡</span> Mở phong
+                                bì</button><small>Gửi bằng tất cả yêu thương</small>
+                        </div>
+                    </div><button id="read-again" class="text-button" hidden>Gấp thư lại ↺</button>
+                </div>
+            </div>
+        </section>
+
+        <footer><span>Được gói bằng yêu thương.</span><span>Dành cho mẹ & em gái ♡</span><button class="replay"
+                aria-label="Xem lại món quà">Xem lại ↺</button></footer>
+    </main>
+    <script src="scene.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
